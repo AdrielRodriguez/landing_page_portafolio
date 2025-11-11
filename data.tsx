@@ -48,32 +48,40 @@ export const itemsNavbar = [
 export const dataAboutPage = [
   {
     id: 1,
-    title: "Frontend Developer",
+    title: "Full Stack Developer",
     subtitle: "Freelance",
     description:
-      "Como desarrollador frontend freelance, hice proyectos innovadores y personalizados para una variedad de clientes y emprendimientos pequeños.",
-    date: "Jun 2025 ",
+      "Como Desarrollador Full Stack freelance, hice proyectos innovadores y personalizados para una variedad de clientes y emprendimientos pequeños.",
+    date: "Jun 2024 ",
   },
+  {
+    id: 2,
+    title: "Full Stack Developer",
+    subtitle: "Zentrais LLC",
+    description:
+      "En Zentrais LLC, participé en el desarrollo de aplicaciones web y móviles, colaborando con equipos multidisciplinarios para crear soluciones tecnológicas efectivas.",
+    date: "Oct 2025 - Presente",
+  }
 ];
 
 export const dataCounter = [
   {
     id: 0,
-    endCounter: 1,
+    endCounter: 2,
     text: "Año de experiencia",
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 1,
-    endCounter: 10,
+    endCounter: +10,
     text: "Clientes satisfechos",
     lineRight: true,
     lineRightMobile: false,
   },
   {
     id: 2,
-    endCounter: 15,
+    endCounter: +20,
     text: "Proyectos finalizados",
     lineRight: true,
     lineRightMobile: true,
